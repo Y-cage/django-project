@@ -1,0 +1,324 @@
+
+body{
+  background:#f2f2f2;
+}
+
+.header{
+  width:100%;
+  height:64px;
+  background:#3a3a3a;
+  position:fixed;
+  left: 0;
+  top:0;
+  right:0;
+}
+.container{
+  width:1170px;
+  height:100%;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.logo-box{
+  width:150px;
+  height:49px;
+  background: url("https://www.bufanbiz.com/static/build/images/new-normal-logo.png") no-repeat;
+  margin-top: 8px;
+  float:left;
+}
+
+a{
+  display:block;
+  width:100%;
+  height:100%;
+  text-decoration:none;
+  color:white;
+}
+
+
+.nav{
+  margin-left:128px;
+  float:left;
+}
+.nav li{
+  float:left;
+  margin-right:40px;
+  line-height:64px;
+  height:64px;
+  list-style:none;
+}
+.auth-box li{
+  float:left;
+  margin-right:20px;
+  line-height:64px;
+  height:64px;
+  list-style:none;
+}
+.auth-box{
+  float:right;
+  line-height:64px;
+  height:64px;
+  color:white;
+}
+
+
+.main{
+  width:100%;
+  margin-top:84px;
+}
+.wrapper{
+  width:1170px;
+  height:800px;
+  margin:0 auto;
+  background:#ccc;
+  overflow:hidden;
+}
+.news-wrapper{
+  width:770px;
+  float:left;
+  background:white;
+}
+.sidebar-wrapper{
+  float:right;
+  width:400px;
+  height:700px;
+  background:white;
+}
+.banner-group{
+  width:100%;
+  height:202px;
+  background:yellow;
+  position:relative;
+  overflow:hidden;
+}
+.banner-ul{
+  overflow:hidden;
+  width:3080px;
+  position:absolute;
+  left: -10px;
+  margin-top:0px;
+  padding-left:0;
+}
+.banner-ul li{
+  float:left;
+  width:770px;
+  height:202px;
+  list-style:none;
+}
+.banner-ul img{
+  width:770px;
+  height:202px;
+}
+/*
+.arrow{
+  font-family:Helvetica
+  Neue,Helvetica,Arial,sans-serif;
+  font-size:70px;
+  color:#fff;
+  position:absolute;
+  margin-top:-45px;
+  top:50%;
+  cursor:pointer;
+  display:none;
+}
+.left-arrow{
+  left:20px;
+}
+.right-arrow{
+  right:20px;
+}
+
+.page-control-group{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:20px;
+}
+.page-control{
+  margin:0 auto;
+  overflow:hidden;
+}
+.page-control li{
+  width:10px;
+  height:10px;
+  border:1px solid #fff;
+  border-radius:50%;
+  float:left;
+  margin:0 0px;
+}
+*/
+.list-outer-group{
+  color:white;
+  margin-top:14px;
+}
+.list-tab{
+  width:100%;
+  height:66px;
+  overflow:hidden;
+  border:1px solid #eee;
+  border-left:none;
+  border-right:none;
+}
+.list-tab li{
+  float:left;
+  padding:0 10px;
+  list-style:none;
+  line-height:66px;
+}
+.list-tab a{
+  color:black;
+}
+.list-inner-group li{
+  padding:20px;
+}
+.thumbnail-group{
+  float:left;
+  height:162px;
+  width:226px;
+}
+.news-group{
+  float:right;
+  position:relative;
+  height:162px;
+  width:464px;
+}
+p{
+  color:green;
+}
+.title{
+  color:#212121;
+  font-size:22px;
+  margin-top:0px;
+}
+.title a{
+  color:blue;
+}
+.title a:hover{
+  color:#5c87d9;
+}
+.desc{
+  color:#878787;
+  font-size:14px;
+  margin-top:10px;
+}
+.more{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  font-size:14px;
+  color:#878787;
+  margin-bottom:0px;
+}
+.pub-time{
+  float:right;
+  margin-left:20px;
+}
+.author{
+  float:right;
+}
+.load-more-group{
+  padding:20px 0;
+  text-align:center;
+}
+.load-more{
+ width:402px;
+ height:40px;
+ background:#d2dcea;
+ color:#6d85ac;
+}
+.lefts-group{
+  width:190px;
+  float:left;
+}
+.lefts-group li{
+  width:100%;
+  height:50px;
+  list-style:none;
+}
+.rights-group{
+  float:right;
+  width:100px;
+  background:url("https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+.weibo a{
+  color:blue;
+}
+.toutiao a{
+  color:blue;
+}
+.rights-group p{
+  margin-top:100px;
+  color:black;
+}
+.hot-list-group li{
+  padding:0 20px 20px;;
+  list-style:none;
+}
+.title-three a{
+  color:#212121;
+}
+.left-content{
+  float:left;
+  width:204px;
+}
+.title-three{
+  font-size:16px;
+}
+.right-content{
+  float:right;
+  width:102px;
+  height:72px;
+}
+.right-content img{
+  width:100%;
+  height:100%;
+}
+.advertise-group img{
+  height:245px;
+}
+.top-group{
+  background:#555e67;
+  height:100px;
+}
+.bottom-group{
+  background:#383e44;
+}
+
+.top-inner-group{
+  /*width:70px;
+  overflow:hidden;
+    */
+  margin:0 auto;
+}
+.links a{
+  color:black;
+}
+.links li{
+  list-style:none;
+}
+.logo-boxs{
+  width:168px;
+  height:54px;
+  float:left;
+  background:url("https://www.bufanbiz.com/static/build/images/new-logo-footer.png");
+  background-repeat:no-repeat;
+  background-size:100%;
+}
+.detail-group{
+  float:left;
+  margin-left:84px;
+}
+.line1{
+  overflow:hidden;
+}
+.links{
+  float:left;
+  overflow:hidden;
+}
+.links li{
+  float:left;
+  padding:0 10px;
+}

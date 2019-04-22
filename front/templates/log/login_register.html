@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/news/log.css'%}">
+</head>
+<body>
+    <div class="location">
+    <form action= "{% url 'xfzauth:register' %}" method="post">
+
+    {% csrf_token %}
+
+     <p>
+        用户名：<input type="text" name="username">
+    </p>
+    <!--登录密码-密码框-->
+    <p>
+        登录密码：<input type="password"  name="password">
+    </p>
+
+    <!--确认密码-密码框-->
+    <p>
+        确认密码：<input type="password" id="cpwd" name="password2">
+    </p>
+    <!--联系方式-文本框-->
+    <p>
+        手机号码：<input type="text" name="telephone">
+    </p>
+    <!--注册按钮-->
+    <p>
+        <input type="submit" value="注册">
+        <!--submit按钮的表单提交数据，是同步访问数据的方式-->
+    </p>
+</form>
+    </div>
+
+</body>
+</html>

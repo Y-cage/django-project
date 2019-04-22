@@ -1,0 +1,212 @@
+body{
+  background:#f2f2f2;
+}
+
+.header{
+  width:100%;
+  height:64px;
+  background:#3a3a3a;
+  position:fixed;
+  left: 0;
+  top:0;
+  right:0;
+}
+.container{
+  width:1170px;
+  height:100%;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.logo-box{
+  width:150px;
+  height:49px;
+  background: url("https://www.bufanbiz.com/static/build/images/new-normal-logo.png") no-repeat;
+  margin-top: 8px;
+  float:left;
+}
+
+a{
+  display:block;
+  width:100%;
+  height:100%;
+  text-decoration:none;
+  color:white;
+}
+
+
+.nav{
+  margin-left:128px;
+  float:left;
+}
+.nav li{
+  float:left;
+  margin-right:40px;
+  line-height:64px;
+  height:64px;
+  list-style:none;
+}
+.auth-box li{
+  float:left;
+  margin-right:20px;
+  line-height:64px;
+  height:64px;
+  list-style:none;
+}
+.auth-box{
+  float:right;
+  line-height:64px;
+  height:64px;
+  color:white;
+}
+.main{
+  margin-top:64px;
+  width:100%;
+}
+.course-nav{
+  width:100%;
+  height:54px;
+  background:pink;
+}
+.nav-container{
+  width:100%;
+  margin:0 auto;
+  height:54px;
+}
+.nav-list{
+  list-style:none;
+  float:left;
+  margin-left:100px;
+}
+.nav-list li{
+  float:left;
+  margin-right:40px;
+  margin-top:20px;
+}
+.nav-list a{
+  color:black;
+  text-decoration:none;
+}
+
+h3.title{
+  float:left;
+  color:black;
+  font-size:24px;
+  /*line-height:70px;*/
+  margin-left:150px;
+}
+.wrapper{
+  margin-top:20px;
+  width:1070px;
+}
+.course-wrapper2{
+  background:#fff;
+}
+.course-info2{
+  padding:20px;
+}
+.course-title{
+  color:green;
+  font-size:20px;
+}
+.price-group{
+  overflow:hidden;
+}
+.buy-group{
+  float:right;
+}
+.buy-btn{
+  background:#ff8d3f;
+  padding:10px;
+}
+.price{
+  color:green;
+}
+.video-group{
+  width:100%;
+  height:600px;
+  background:pink;
+}
+.bottom-wrapper{
+  margin-top:20px;
+  overflow:hidden;
+}
+.course-wrapper3{
+  float:left;
+  width:700px;
+}
+.recommand-wrapper{
+  width:355px;
+  float:right;
+  color:#fff;
+}
+.item-group{
+  background:#fff;
+  padding:20px;
+}
+.item-title{
+  color:black;
+  font-size:18px;
+  border-left:5px solid green;
+  padding-left:16px;
+}
+.teacher-group{
+  overflow:hidden;
+  margin-top:20px;
+}
+.avatar-group{
+  float:left;
+  width:60px;
+  height:60px;
+}
+.avatar-group img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+}
+.author-infos{
+  margin-left:10px;
+  color:#696969;
+}
+.teacher-name{
+  margin-top:0px;
+}
+.teacher-desc{
+  margin-top:0px;
+}
+.item-content{
+  margin-top:20px;
+  color:rgb(68,68,68);
+  line-height:2;
+}
+.course-lists li{
+  list-style:none;
+  overflow:hidden;
+  padding:20px 0;
+}
+.course-info-group{
+  float:left;
+  width:150px;
+  position:relative;
+}
+.thumbnail-group{
+  float:right;
+  width:160px;
+}
+.course-lists a{
+  color:blue;
+}
+.recommand-title{
+  color:black;
+  font-size:16px;
+}
+.teachers{
+  position:absolute;
+  left:0;
+  right:0;
+  height:0;
+}
+.thumbnail-group img{
+  width:100%;
+  height:100%;
+}
